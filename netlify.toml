@@ -6,11 +6,6 @@ publish = "dist"
 NODE_VERSION = "22"
 NPM_VERSION = "10"
 
-# Disable neon extension that's causing build failures
-[plugins]
-# No plugins enabled
-
-# Redirect all non-file requests to index.html for React Router
 [[redirects]]
 from = "/*"
 to = "/index.html"
